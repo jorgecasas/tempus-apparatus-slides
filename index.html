@@ -1,0 +1,216 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <!--This one seems to work all the time, but really small on ipad-->
+        <!--<meta name="viewport" content="initial-scale=0.4">-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" media="all" href="theme/css/default.css">
+        <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+        <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+        <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+    </head>
+    <body style="opacity: 0">
+
+    <slides class="layout-widescreen">
+
+        <slide class="logoslide nobackground">
+            <article class="flexbox vcenter">
+                <div><img src="images/iternova_logo_horizontal.png"></div>
+                <br/>
+                <div>Con la colaboración de <img src="images/tecnocarreteras_logo.png" class="small"></div>
+            </article>
+        </slide>
+
+        <slide class="title-slide segue nobackground">
+            <aside class="gdbar"><img src="images/iternova_logo_square.png"></aside>
+            <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+            <hgroup class="auto-fadein">
+                <h1 data-config-title><!-- populated from slide_config.json --></h1>
+                <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+                <p data-config-presenter><!-- populated from slide_config.json --></p>
+            </hgroup>
+        </slide>
+
+        <slide>
+            <hgroup>
+                <h2>¿Qué es SmartRoads?</h2>
+            </hgroup>
+            <article>
+                <ul>
+                    <li><b>Sistema de Gestión Web de Infraestructuras</b></li>
+                    <li>Implantado en Demarcaciones de Carreteras del Estado de España (Aragón, Comunidad Valenciana, La Rioja, Comunidad de Murcia, Soria... ), Dirección General de Tráfico (España), varias diputaciones provinciales y Comunidades Autónomas (Aragón) y varias concesionarias de autopistas y sectores de conservación.</li>
+                    <li>También nos encontramos en las principales autopistas de México (Atlacomulco-Maravatío, Sinaloa, Arco Norte...). En expansión a otros países LATAM.</li>
+                    <li>Más de 18000 Km gestionados</li>
+                </ul>
+                <p><b>SmartRoads</b> se complementa con la plataforma <b>SmartFacilities</b> (gestión de instalaciones) y <b>SmartCities</b> (gestión de ciudades inteligentes) de ITERNOVA</p>
+
+            </article>
+        </slide>
+
+
+        <slide>
+            <hgroup>
+                <h2>¿Qué es SmartRoads?</h2>
+            </hgroup>
+            <article>
+                <ul>
+                    <li>Premio ACEX 2012 a la Seguridad en Conservación</li>
+                </ul>
+                <p class="flexbox vcenter">
+                    <img src="images/others/premio-acex.jpg" />
+                </p>
+                <ul>
+                    <li><a href="https://www.tecnocarreteras.es">Tecnocarreteras.es</a> - Proyecto para dar a conocer tecnologías relacionadas con infraestructuras y el sistema <b>SmartRoads</b></li>
+                </ul>
+                <p class="flexbox vcenter">
+                    <img src="images/tecnocarreteras_logo.png" />
+                </p>
+            </article>
+        </slide>
+
+        <slide>
+            <hgroup>
+                <h2>Entorno SmartRoads</h2>
+            </hgroup>
+            <article>
+                <div class="flexbox vcenter">
+                    <img src="images/others/smartroads-diagrama-actores.jpg" class="large" />
+                </div>
+            </article>
+        </slide>
+
+
+        <slide>
+            <hgroup>
+                <h2>Sistema Modular >> Gestión Integral</h2>
+            </hgroup>
+            <article class="smaller">
+                <table>
+                    <tr>
+                        <th>Bloque / Actividad</th>
+                        <th>Objetivos</th>
+                        <th>Módulos Implicados</th>
+                    </tr>
+                    <tr>
+                        <td>Conservación Ordinaria / Mantenimiento</td>
+                        <td>Conservar elementos de la carretera en estado óptimo</td>
+                        <td>Inventariado de elementos<br/>Inspecciones de elementos</td>
+                    </tr>
+                    <tr>
+                        <td>Rehabilitación</td>
+                        <td>Mantener un firme adecuado para la circulación</td>
+                        <td>Inventariado de firmes<br/>Agenda de rehabilitación<br/>Estudios / Auscultaciones </td>
+                    </tr>
+                    <tr>
+                        <td>Vialidad</td>
+                        <td>Permitir la circulación fluida de vehículos por la vía</td>
+                        <td>Agenda de Vialidad<br/>Protocolos<br/>Herramientas ITS (Flotas GPS, videocámaras, estaciones meteo, ETD, PMV...)</td>
+                    </tr>
+                    <tr>
+                        <td>Seguridad Vial</td>
+                        <td>Determinar zonas peligrosas</td>
+                        <td>Accidentalidad<br/>Indicadores de Seguridad Vial</td>
+                    </tr>
+                    <tr>
+                        <td>Gestión económica</td>
+                        <td>Planificar y conocer inversiones y costes</td>
+                        <td>Gestión Económica<br/>Planificación y Seguimiento</td>
+                    </tr>
+                    <tr>
+                        <td>Información adicional</td>
+                        <td>Datos adicionales requeridos para el funcionamiento del resto de módulos del sistema</td>
+                        <td>Geometría de la carretera<br/>Contratos, Sectores, Carreteras, Puntos con Restricción...</td>
+                    </tr>
+                    <tr>
+                        <td>Otros módulos de gestión</td>
+                        <td>Gestionar información de proyectos, ofrecer servicios a los ciudadanos, realizar seguimiento de operaciones...</td>
+                        <td>Aplicaciones móviles<br/>Gestor de Expedientes<br/>Gestor documental<br/>Gestión de almacenes<br/>Ventanilla virtual</td>
+                    </tr>
+
+                </table>
+            </article>
+        </slide>
+
+
+
+        <!-- DATOS INICIALES -->
+        <slide>
+            <hgroup>
+                <h2>SmartRoads</h2>
+            </hgroup>
+            <article>
+                <h1>Gestor de Expedientes</h1>
+
+                <ul>
+                    <li>Realizar seguimiento de expedientes</li>
+                    <li>Registro de entrada / salida de documentos</li>
+                    <li>Ventanilla virtual (pública)</li>
+                    <li>Generación automátizada de documentos</li>
+                    <li><b>Configurable a necesidades de cada cliente</b></li>
+                </ul>
+                <!--div class="flexbox vcenter">
+                    <img src="images/others/mexico.jpg" class="medium" />
+                </div-->
+                <div class="flexbox vcenter">
+                    <a href="https://jorgecasas.iternova.net/index.php?type=public&zone=expedientes&action=search_form&categoryID=-1&codeID=-1&subzone=default" target="_blank">
+                        <img src="images/iternova_logo_smartroads.png" class="medium" />
+                    </a>
+                </div>
+
+            </article>
+        </slide>
+
+
+
+        <slide class="thank-you-slide segue nobackground">
+            <aside class="gdbar right"><img src="images/iternova_logo_square.png"></aside>
+            <article class="flexbox vleft auto-fadein">
+                <h2>Thank you!</h2>
+                <h3>¿Quieres saber algo más sobre <b>SmartRoads</b>?</h3>
+            </article>
+            <p class="auto-fadein" data-config-contact>
+                <!-- populated from slide_config.json -->
+            </p>
+        </slide>
+
+        <slide class="logoslide nobackground">
+            <article class="flexbox vcenter">
+                <span><img src="images/iternova_logo_horizontal.png"></span>
+            </article>
+        </slide>
+
+        <slide class="backdrop"></slide>
+
+    </slides>
+
+    <!--script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script-->
+
+    <!--[if IE]>
+      <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+      <script>CFInstall.check({mode: 'overlay'});</script>
+    <![endif]-->
+</body>
+</html>
