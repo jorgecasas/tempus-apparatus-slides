@@ -6,6 +6,9 @@
 $path_images = dirname( __FILE__ ) . '/images/others/';
 $path_html = dirname( __FILE__ ) . '/';
 
+// Mostramos texto de ayuda debajo del titulo de cada foto? Por defecto, para adivinanzas, dejarlo a FALSE
+$display_help = false; 
+
  // Limpiamos el array para que no de errores 
 $array_images = scandir( $path_images ); 
 $array_images = array_diff( $array_images, array( '.', '..'  ) );
@@ -25,9 +28,11 @@ foreach( $array_images as $image ) {
 		$filename_exploded_ucfirst = strtoupper( implode( ' ' , array_map( 'ucfirst', $filename_exploded ) ) );
 		$str.= '<slide>
             <hgroup>
-                <h2>'.$filename_exploded[ 0 ] . ( $filename_exploded[ 1 ] == 'circa' ? ' - Circa' : '' ).'</h2>
-                <div>' . $filename_exploded_ucfirst . '</div>
-            </hgroup>
+                <h2>'.$filename_exploded[ 0 ] . ( $filename_exploded[ 1 ] == 'circa' ? ' - Circa' : '' ).'</h2>';
+        if ( $display_help ) { // Mostramos texto de ayuda debajo del titulo
+            $str.= '<div>' . $filename_exploded_ucfirst . '</div>';
+        }
+        $str.= '</hgroup>
             <article>
                 
                 <div class="flexbox vcenter">
