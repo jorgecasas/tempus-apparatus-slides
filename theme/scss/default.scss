@@ -829,6 +829,7 @@ article.smaller {
 }
 
 img, video {
+  	display: block;
 	&.small{
 		max-width: 250px;
 		max-height: 150px;
@@ -839,9 +840,9 @@ img, video {
 	}
 
 	&.large{
+		min-height: 480px;
 		max-width: 880px;
 		max-height: 580px;
-		
 	}
 	
 	&.full{
@@ -864,6 +865,9 @@ img, video {
 		margin-top: -$video-crop-top;
 		clip: rect(($video-crop-top), ($slide-width-widescreen - 2 * $slide-left-right-padding), ($slide-height - $slide-top-bottom-padding ), 0px);
 	}
+
+    width: auto;
+    height: auto;
 }
 
 

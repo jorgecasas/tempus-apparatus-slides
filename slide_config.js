@@ -1,11 +1,11 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'SmartRoads',
-    subtitle: 'Sistema de Gestión Web de Infraestructuras',
+    title: 'Tempus Apparatus',
+    subtitle: 'La Máquina del Tiempo',
     eventInfo: {
-      title: 'Webinar: SmartRoads - Gestor de Expedientes',
-      date: '2016-Q1'
+      title: 'Hotel Plaza - Jornadas Culturales 2016',
+      //date: '2016-08'
     },
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
@@ -22,13 +22,13 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Soporte Técnico',
-    company: 'ITERNOVA',
+    name: 'Jorge Casas',
+    //company: 'ITERNOVA',
     //gplus: 'http://plus.google.com/1234567890',
-    email: 'soportetecnico@iternova.net',
-    twitter: '@iternova',
-    www: 'https://www.iternova.net',
-    blog: 'https://www.tecnocarreteras.es',
+    email: 'jorgecasas@iternova.net',
+    twitter: '@jorgecasas',
+    www: 'https://jorgecasas.github.io',
+    //blog: 'https://www.tecnocarreteras.es',
   //github: 'https://github.com/jorgecasas'
   }/*, {
     name: 'Second Name',
