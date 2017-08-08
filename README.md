@@ -1,6 +1,6 @@
 <h1>Creating slides from images using PHP</h1>
 
-The script **create-slides.php** allows to create easily the slides with images from the directory **images/others**. Just put images in this directory and execute:
+The script **create-slides.php** allows to create easily the slides with images (with extension **jpg, gif or png**) and videos (with extension **mp4**) from the directory **images/others**. Just put images in this directory and execute:
 
 ```
 php create-slides.php
